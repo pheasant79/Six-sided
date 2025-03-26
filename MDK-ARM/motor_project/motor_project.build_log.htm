@@ -1,0 +1,142 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 2421362924@qq.com, 1, LIC=X96CK-ZJSAX-12VLE-5H4XS-IVFY1-LU1P6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.41.0.0
+Toolchain Path:  D:\apks\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\Works\stm32\Stm32cubeMX\motor_project\MDK-ARM\motor_project.uvprojx
+Project File Date:  03/20/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\apks\Keil5\ARM\ARMCC\Bin'
+Rebuild target 'motor_project'
+assembling startup_stm32f103xb.s...
+compiling dma.c...
+../hardware/inc/menu.h(1): warning:  #1-D: last line of file ends without a newline
+   
+../Core/Src/dma.c: 1 warning, 0 errors
+compiling gpio.c...
+../hardware/inc/menu.h(1): warning:  #1-D: last line of file ends without a newline
+   
+../Core/Src/gpio.c: 1 warning, 0 errors
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_it.c...
+../hardware/inc/menu.h(1): warning:  #1-D: last line of file ends without a newline
+   
+../Core/Src/stm32f1xx_it.c: 1 warning, 0 errors
+compiling stm32f1xx_hal_msp.c...
+../hardware/inc/menu.h(1): warning:  #1-D: last line of file ends without a newline
+   
+../Core/Src/stm32f1xx_hal_msp.c: 1 warning, 0 errors
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling main.c...
+../hardware/inc/menu.h(1): warning:  #1-D: last line of file ends without a newline
+   
+../Core/Src/main.c(122): warning:  #223-D: function "menu1" declared implicitly
+  	menu1();
+../Core/Src/main.c: 2 warnings, 0 errors
+compiling tim.c...
+../hardware/inc/menu.h(1): warning:  #1-D: last line of file ends without a newline
+   
+../Core/Src/tim.c: 1 warning, 0 errors
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling Oled_Data.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_exti.c...
+compiling Key.c...
+../hardware/inc/menu.h(1): warning:  #1-D: last line of file ends without a newline
+   
+..\hardware\src\Key.c: 1 warning, 0 errors
+compiling motor.c...
+../hardware/inc/menu.h(1): warning:  #1-D: last line of file ends without a newline
+   
+..\hardware\src\motor.c: 1 warning, 0 errors
+compiling Oled.c...
+../hardware/inc/menu.h(1): warning:  #1-D: last line of file ends without a newline
+   
+..\hardware\src\Oled.c(88): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint32_t i, j;
+..\hardware\src\Oled.c(88): warning:  #177-D: variable "j"  was declared but never referenced
+  	uint32_t i, j;
+..\hardware\src\Oled.c: 3 warnings, 0 errors
+compiling mymath.c...
+../hardware/inc/menu.h(1): warning:  #1-D: last line of file ends without a newline
+   
+..\system\src\mymath.c: 1 warning, 0 errors
+compiling menu.c...
+../hardware/inc/menu.h(1): warning:  #1-D: last line of file ends without a newline
+   
+../hardware/inc/menu.h(1): warning:  #1-D: last line of file ends without a newline
+   
+..\system\inc\process_state.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif /* __PROCESS_STATE_H__ */ 
+..\system\inc\system_params.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif /* __SYSTEM_PARAMS_H__ */ 
+..\system\inc\icon_def.h(38): warning:  #1-D: last line of file ends without a newline
+  #endif /* __ICON_DEF_H__ */ 
+..\system\src\menu.c(17): error:  #5: cannot open source input file "oled_utils.h": No such file or directory
+  #include "oled_utils.h"
+..\system\src\menu.c: 5 warnings, 1 error
+compiling pressure.c...
+../hardware/inc/menu.h(1): warning:  #1-D: last line of file ends without a newline
+   
+..\system\src\pressure.c: 1 warning, 0 errors
+compiling temperature.c...
+../hardware/inc/menu.h(1): warning:  #1-D: last line of file ends without a newline
+   
+..\system\src\temperature.c: 1 warning, 0 errors
+".\motor_project\motor_project.axf" - 1 Error(s), 20 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM.CMSIS.6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_motor_project
+  D:/apks/Keil5/ARM/PACK/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  D:/apks/Keil5/ARM/PACK/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Target not created.
+Build Time Elapsed:  00:00:09
+</pre>
+</body>
+</html>

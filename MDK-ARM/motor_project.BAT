@@ -1,0 +1,8 @@
+SET PATH=D:\apks\Keil5\ARM\ARMCC\Bin;E:\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Program Files\python3.11.9\Scripts;D:\Program Files\python3.11.9;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA\CUDNN\v9.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\libnvvp;D:\apks\Anaconda3\Scripts;D:\apks\Anaconda3\Library\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.2.2\;D:\apks\Git\Git\cmd;D:\apks\ADB;D:\apks\ffmpeg\bin;D:\apks\vs ide\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.41.34120\bin\Hostx64\x64;D:\apks\vs ide\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build;D:\apks\CMake\bin;D:\apks\Tesseract-OCR;D:\apks\Anaconda3;C:\Users\24213\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet-core-uninstall\;C:\apks\mingw64\bin;C:\apks\Java\jre-1.8\bin;C:\apks\Java\jre1.8.0_291\bin;C:\apks\Java\jre1.8.0_291\bin;;C:\Users\24213\AppData\Local\Programs\Ollama;C:\Users\24213\.lmstudio\bin;C:\Users\24213\.dotnet\tools;C:\Users\24213\AppData\Local\Microsoft\WindowsApps;D:\apks\Microsoft VS Code\bin
+SET ARMCC5_ASMOPT=--diag_suppress=9931
+SET ARMCC5_CCOPT=--diag_suppress=9931
+SET ARMCC5_LINKOPT=--diag_suppress=9931
+SET CPU_TYPE=STM32F103C8
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=motor_project
+SET CPU_CLOCK=0x007A1200
